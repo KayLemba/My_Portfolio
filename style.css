@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+  }
+
+  main {
+    background-color: #f1c40f;
+    padding: 2rem 0;
+  }
+  
+  main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  main p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  main button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  main button:hover {
+    background-color: #555;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  section img {
+    max-width: 150px;
+    height:  max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  section#contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section#contact input,
+  section#contact textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+  }
+  
+  section#contact button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section#contact button:hover {
+    background-color: #555;
+  }
